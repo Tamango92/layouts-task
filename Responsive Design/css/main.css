@@ -1,0 +1,1031 @@
+*{
+    box-sizing: border-box;
+}
+@font-face {
+   font-family:open-sans;
+   src: url(../fonts/regular.ttf);
+ }
+
+body{
+    font-family: open-sans;
+}
+
+header{
+    background-image: url(../img/apples.jpg);
+    background-size: 100% auto;
+    width: 100%;
+    min-height: 650px;
+    color:white;
+    margin-top:-1.2%;
+    position: relative;
+    background-repeat: no-repeat;
+    height: 100%;
+
+}
+.black_and_white{
+    position: absolute;
+    margin-left: 13%;
+    top: 2%;
+}
+.header_list{
+    position: absolute;
+    list-style: none;
+    top:2%;
+    width:40%;
+    right: 7.5%;
+    box-sizing: border-box;
+}
+.header_list li{
+    display: inline-block;
+    margin-left: 9%;
+}
+.header_list li:hover{
+    display: inline-block;
+    margin-left: 9%;
+    padding-bottom: 1%;
+    border-bottom: 2px solid lightblue;
+    cursor: pointer;
+}
+
+.header_text{
+    text-align: center;
+    font-family: open-sans;
+    margin-top: 0%;
+}
+.ampersand{
+    font-size: 6em;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+.header_center_text{
+    text-align: center;
+    padding-top: 18%;
+}
+.black{
+    font-size: 3em;
+    text-transform: uppercase;
+}
+.white{
+    font-size: 3em;
+    text-transform: uppercase;
+}
+.tm{
+    vertical-align:text-top;
+}
+.read_button{
+    width: 10%;
+}
+header a{
+    padding: 1% 5% 1% 5%;
+    background-color: black;
+    color: white;
+    border:2px solid white;
+    text-decoration: none;
+    position: absolute;
+    left:42%;
+    bottom: 18%;
+    opacity: 0.7;
+}
+.content_text{
+    width: 85%;
+    margin: 0 auto;
+}
+.left{
+    display: inline-block;
+    width: 40%;
+    vertical-align: top;
+    margin-left: 5%;
+    margin-right: 5%;
+    font-size: 2em;
+    padding-top: 4%;
+    padding-bottom: 7%;
+}
+.right{
+    display: inline-block;
+    width: 40%;
+    padding-top: 4%;
+    padding-bottom: 7%;
+}
+.content{
+    background-color: #F3F3F3;
+    position: relative;
+    overflow:hidden;
+}
+.content h3{
+    text-align: center;
+    padding-top: 10%;
+    padding-bottom: 8%;
+}
+.images{
+    width: 80%
+    margin:0 auto;
+    text-align: center;
+}
+
+.img1{
+    margin-bottom: 2%;
+    width: 50%;
+    height: 50%;
+}
+.img2{
+    margin-bottom: 2%;
+    margin-left: 2%;
+    height: 23%;
+    width: 24%;
+}
+.img3{
+    height: 23%;
+    width: 24%;
+}
+.img4{
+    margin-left: 2%;
+    width: 50%;
+    height: 50%;
+}
+.subscribe{
+    width: 77%;
+    margin: 0 auto;
+    background-color: white;
+    margin-top: 8%;
+    margin-bottom: 12%;
+
+}
+.subs_left{
+    display: inline-block;
+    margin-left: 12%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.subs_left p{
+    font-size: 1.5em;
+
+
+}
+.subs_right{
+    display: inline-block;
+    margin-left:10%;
+    width: 41%;
+    height: 100%;
+}
+.subs_right input[type="text"]{
+    width: 63%;
+    height: 100%;
+    padding: 3% 0 3% 5%;
+    background-color: #F3F3F3;
+    border:1px solid black;
+    color:black;
+}
+.subs_right input[type="button"]{
+    padding: 3% 8% 3% 8%;
+    background-color: #343638;
+    color:white;
+    border:1px solid black;
+}
+footer{
+    background-color: white;
+    width: 77%;
+    margin: 0 auto;
+    height: 100%;
+}
+.col_main{
+    margin-top: 10%;
+    display: inline-block;
+    margin-right: 6%;
+    width: 20%;
+    height: 100%;
+    vertical-align: top;
+}
+.col_main p{
+    color: grey;
+}
+
+.col_4{
+    margin-top: 10%;
+    display: inline-block;
+    width: 20%;
+    height: 100%;
+
+}
+.col_4 p{
+    color: grey;
+}
+.col_4 input[type="text"]{
+    width: 60%;
+    background-color: #F3F3F3;
+    border:1px solid black;
+    color:black;
+    padding-top: 6%;
+    padding-bottom: 6%;
+    padding-left: 4%;
+}
+.col_4 input[type="button"]{
+    width: 40%;
+    padding-top: 6%;
+    padding-bottom: 6%;
+    background-color: #343638;
+    color:white;
+    border:1px solid black;
+    margin: 0;
+}
+.col_4 p{
+    padding-bottom: 0%;
+}
+.footer_nav{
+    padding-top: 3%;
+    border-top:1px solid grey;
+    width: 100%;
+    margin-top: 10%;
+    color:grey;
+    position: relative;
+}
+.footer_list{
+    position: absolute;
+    list-style: none;
+    width:40%;
+    right:-4.7%;
+    top:4%;
+    color: black;
+}
+.footer_list li{
+    display: inline-block;
+    margin-left: 9%;
+}
+.footer_nav p{
+    position: absolute;
+    top:4%;
+    left: 0;
+}
+
+
+
+/*----------------MEDIA---------------------*/
+@media (max-width:1024px){
+    header{
+        background-image: url(../img/apples.jpg);
+        background-size: 100% auto;
+        width: 100%;
+        min-height: 505px;
+        color:white;
+        margin-top:-1.2%;
+        position: relative;
+        background-repeat: no-repeat;
+        height: 100%;
+
+    }
+
+    header a{
+        padding: 1% 5% 1% 5%;
+        background-color: black;
+        color: white;
+        border:2px solid white;
+        text-decoration: none;
+        position: absolute;
+        left:42%;
+        bottom: 20%;
+        opacity: 0.7;
+    }
+    .left{
+        display: inline-block;
+        width: 40%;
+        vertical-align: top;
+        margin-left: 5%;
+        margin-right: 5%;
+        font-size: 1.5em;
+        padding-top: 4%;
+        padding-bottom: 7%;
+    }
+    .right{
+        display: inline-block;
+        width: 40%;
+        padding-top: 4%;
+        padding-bottom: 7%;
+        font-size: 1em;
+    }
+    .subs_left{
+        display: inline-block;
+        margin-left: 7%;
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+    .col_4 input[type="text"]{
+        visibility: hidden;
+    }
+    .col_4 input[type="button"]{
+        visibility: hidden;
+    }
+    .footer_list{
+        position: absolute;
+        list-style: none;
+        width:43%;
+        right:0%;
+        top:4%;
+        color: black;
+    }
+    .footer_list li{
+        display: inline-block;
+        margin-left: 9%;
+    }
+
+}/*----------END OF WIDYH 1024px------------ */
+
+
+
+@media (max-width:768px){
+    header{
+        background-image: url(../img/apples.jpg);
+        background-size: 100% auto;
+        width: 100%;
+        min-height: 385px;
+        color:white;
+        margin-top:-1.2%;
+        position: relative;
+        background-repeat: no-repeat;
+        height: 100%;
+
+    }
+    .header_list{
+        position: absolute;
+        list-style: none;
+        top:2%;
+        width:45%;
+        right: 7.5%;
+        box-sizing: border-box;
+    }
+
+    header a{
+        padding: 1% 5% 1% 5%;
+        background-color: black;
+        color: white;
+        border:2px solid white;
+        text-decoration: none;
+        position: absolute;
+        left:40%;
+        bottom: 20%;
+        opacity: 0.7;
+    }
+    .left{
+        display: inline-block;
+        width: 40%;
+        vertical-align: top;
+        margin-left: 5%;
+        margin-right: 5%;
+        font-size: 1.5em;
+        padding-top: 4%;
+        padding-bottom: 7%;
+    }
+    .right{
+        display: inline-block;
+        width: 40%;
+        padding-top: 4%;
+        padding-bottom: 7%;
+        font-size: 1em;
+    }
+    .subs_left{
+        margin-left: 27%;
+        margin-top: 0%;
+        margin-bottom: -3%;
+    }
+    .subs_right{
+        margin: 0% auto;
+        width: 49%;
+        height: 100%;
+        text-align: center;
+        margin-left: 26%;
+    }
+    .subs_right input[type="text"]{
+    width: 58%;
+    height: 100%;
+    padding: 3% 0 3% 5%;
+    background-color: #F3F3F3;
+    border: 1px solid black;
+    color: black;
+    margin-bottom: 13%;
+    }
+    .subs_right input[type="button"]{
+    padding: 3% 8% 3% 8%;
+    background-color: #343638;
+    color: white;
+    border: 1px solid black;
+    }
+    .col_4 input[type="text"]{
+        visibility: hidden;
+    }
+    .col_4 input[type="button"]{
+        visibility: hidden;
+    }
+    .footer_list{
+        position: absolute;
+        list-style: none;
+        width:58%;
+        right:0%;
+        top:4%;
+        color: black;
+    }
+    .footer_list li{
+        display: inline-block;
+        margin-left: 9%;
+    }
+    .col_main{
+        margin-top: 10%;
+        display: inline-block;
+        margin-right: 5%;
+        width: 20%;
+        height: 100%;
+        vertical-align: top;
+    }
+
+}/*---------END OF WIDTH 768px--------*/
+
+
+
+
+@media (max-width:425px){
+    header{
+        background-image: url(../img/apples.jpg);
+        background-size: 100% auto;
+        width: 100%;
+        min-height: 226px;
+        color:white;
+        margin-top:-1.2%;
+        position: relative;
+        background-repeat: no-repeat;
+        height: 100%;
+
+    }
+    .header_list{
+        list-style: none;
+        top: 9%;
+        width: 95%;
+        right: 7.5%;
+
+    }
+    .black_and_white{
+        margin-left: 35%;
+        font-size: 0.9em;
+        margin-top: 0%;
+    }
+
+    header a{
+        padding: 0% 2% 0% 2%;
+        background-color: black;
+        color: white;
+        border: 2px solid white;
+        text-decoration: none;
+        position: absolute;
+        left: 38%;
+        bottom: 53%;
+        opacity: 0.7;
+    }
+    .header_center_text{
+        text-align: center;
+        padding-top: 27%;
+    }
+    .ampersand{
+        font-size: 2.5em;
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+    .black{
+        font-size: 1.5em;
+        text-transform: uppercase;
+    }
+    .white{
+        font-size: 1.5em;
+        text-transform: uppercase;
+    }
+    .tm{
+        vertical-align:text-top;
+        font-size: 0.7em;
+    }
+    .left{
+        display: block;
+        width: 100%;
+        vertical-align: top;
+        margin-left: 0%;
+        margin-right: 5%;
+        font-size: 1em;
+        padding-top: 0%;
+        padding-bottom: 2%;
+        text-align: center;
+    }
+    .right{
+        width: 100%;
+        padding-top: 4%;
+        padding-bottom: 7%;
+        font-size: 1em;
+        text-align: center;
+    }
+    .img1 {
+        margin-bottom: 2%;
+        width: 78%;
+        height: 50%;
+        display: block;
+        margin: 0 auto;
+    }
+    .img2 {
+        margin-bottom: 1%;
+        margin-left: 0%;
+        margin-right: 0%;
+        height: 31%;
+        width: 38%;
+        display: inline-block;
+        margin-top: 1%;
+    }
+    .img3 {
+        height: 31%;
+        width: 38%;
+        display: inline-block;
+        margin-bottom: 1%;
+        margin-left: 1%;
+        margin-right: 0%;
+    }
+    .img4 {
+        margin-left: 2%;
+        width: 78%;
+        height: 50%;
+        display: block;
+        margin: -4px auto;
+    }
+
+    .content h3 {
+        text-align: center;
+        padding-top: 3%;
+        padding-bottom: 3%;
+    }
+    .subs_left{
+        margin-left: 22%;
+        margin-top: 0%;
+        margin-bottom: -3%;
+    }
+    .subs_left p {
+        font-size: 1em;
+    }
+    .subs_right{
+        margin: 0% auto;
+        width: 49%;
+        height: 100%;
+        text-align: center;
+        margin-left: 21%;
+    }
+    .subs_right input[type="text"]{
+        width: 122%;
+        height: 100%;
+        padding: 3% 0 3% 5%;
+        background-color: #F3F3F3;
+        border: 1px solid black;
+        color: black;
+        margin-bottom: 1%;
+    }
+    .subs_right input[type="button"]{
+        padding: 3% 41% 3% 41%;
+        background-color: #343638;
+        color: white;
+        border: 1px solid black;
+        margin-bottom: 15%;
+    }
+    .col_4 input[type="text"]{
+        visibility: hidden;
+    }
+    .col_4 input[type="button"]{
+        visibility: hidden;
+    }
+    .col_main {
+        margin-top: 10%;
+        display: block;
+        margin-right: 5%;
+        width: 100%;
+        height: 100%;
+        text-align: center;
+    }
+    .col_main p {
+    color: grey;
+    font-size: 0.9em;
+    margin-top: -7%;
+    margin-bottom: 0%;
+    }
+    .col_4{
+        margin-top: 1%;
+        display: inline-block;
+        width: 100%;
+        height: 100%;
+        text-align: center;
+    }
+    .col_4 p {
+        padding-bottom: 0%;
+        margin-bottom: -14%;
+    }
+    .footer_list{
+        position: absolute;
+        list-style: none;
+        width:58%;
+        right:0%;
+        top:4%;
+        color: black;
+        display: none;
+    }
+    .footer_list li{
+        display: inline-block;
+        margin-left: 9%;
+    }
+    .footer_nav p {
+        position: relative;
+        margin-top: -1%;
+    }
+
+}/*-------------END OF WIDTH 425px----------*/
+
+
+@media (max-width:375px){
+    header{
+        background-image: url(../img/apples.jpg);
+        background-size: 100% auto;
+        width: 100%;
+        min-height: 200px;
+        color:white;
+        margin-top:-1.2%;
+        position: relative;
+        background-repeat: no-repeat;
+        height: 100%;
+
+    }
+    .header_list{
+        list-style: none;
+        top: 9%;
+        width: 95%;
+        right: 7.5%;
+
+    }
+    .black_and_white{
+        margin-left: 34%;
+        font-size: 0.9em;
+        margin-top: 0%;
+    }
+
+    header a{
+        padding: 0% 2% 0% 2%;
+        background-color: black;
+        color: white;
+        border: 2px solid white;
+        text-decoration: none;
+        position: absolute;
+        left: 38%;
+        bottom: 53%;
+        opacity: 0.7;
+    }
+    .header_center_text{
+        text-align: center;
+        padding-top: 27%;
+    }
+    .ampersand{
+        font-size: 2.5em;
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+    .black{
+        font-size: 1.5em;
+        text-transform: uppercase;
+    }
+    .white{
+        font-size: 1.5em;
+        text-transform: uppercase;
+    }
+    .tm{
+        vertical-align:text-top;
+        font-size: 0.7em;
+    }
+    .left{
+        display: block;
+        width: 100%;
+        vertical-align: top;
+        margin-left: 0%;
+        margin-right: 5%;
+        font-size: 1em;
+        padding-top: 0%;
+        padding-bottom: 2%;
+        text-align: center;
+    }
+    .right{
+        width: 100%;
+        padding-top: 4%;
+        padding-bottom: 7%;
+        font-size: 1em;
+        text-align: center;
+    }
+    .img1 {
+        margin-bottom: 2%;
+        width: 90%;
+        height: 50%;
+        display: block;
+        margin: 0 auto;
+    }
+    .img2 {
+        margin-bottom: 1%;
+        margin-left: 0%;
+        margin-right: 0%;
+        height: 31%;
+        width: 44.5%;
+        display: inline-block;
+        margin-top: 1%;
+    }
+    .img3 {
+        height: 31%;
+        width: 44.5%;
+        display: inline-block;
+        margin-bottom: 1%;
+        margin-left: 0%;
+        margin-right: 0%;
+    }
+    .img4 {
+        margin-left: 2%;
+        width: 90%;
+        height: 50%;
+        display: block;
+        margin: -4px auto;
+    }
+
+    .content h3 {
+        text-align: center;
+        padding-top: 3%;
+        padding-bottom: 3%;
+    }
+    .subs_left{
+        margin-left: 18%;
+        margin-top: 0%;
+        margin-bottom: -3%;
+    }
+    .subs_left p {
+        font-size: 1em;
+    }
+    .subs_right{
+        margin: 0% auto;
+        width: 49%;
+        height: 100%;
+        text-align: center;
+        margin-left: 21%;
+    }
+    .subs_right input[type="text"]{
+        width: 122%;
+        height: 100%;
+        padding: 3% 0 3% 5%;
+        background-color: #F3F3F3;
+        border: 1px solid black;
+        color: black;
+        margin-bottom: 1%;
+    }
+    .subs_right input[type="button"]{
+        padding: 3% 38.5% 3% 38.5%;
+        background-color: #343638;
+        color: white;
+        border: 1px solid black;
+        margin-bottom: 15%;
+    }
+    .col_4 input[type="text"]{
+        visibility: hidden;
+    }
+    .col_4 input[type="button"]{
+        visibility: hidden;
+    }
+    .col_main {
+        margin-top: 10%;
+        display: block;
+        margin-right: 5%;
+        width: 100%;
+        height: 100%;
+        text-align: center;
+    }
+        .col_main p {
+        color: grey;
+        font-size: 0.9em;
+        margin-top: -7%;
+        margin-bottom: 0%;
+    }
+    .col_4{
+        margin-top: 1%;
+        display: inline-block;
+        width: 100%;
+        height: 100%;
+        text-align: center;
+    }
+    .col_4 p {
+        padding-bottom: 0%;
+        margin-bottom: -14%;
+    }
+    .footer_list{
+        position: absolute;
+        list-style: none;
+        width:58%;
+        right:0%;
+        top:4%;
+        color: black;
+        display: none;
+    }
+    .footer_list li{
+        display: inline-block;
+        margin-left: 9%;
+    }
+    .footer_nav p {
+        position: relative;
+        margin-top: -1%;
+    }
+
+}
+/*-----------END OF WIDTH 325px------*/
+
+
+@media (max-width:320px){
+    header{
+        background-image: url(../img/apples.jpg);
+        background-size: 100% auto;
+        width: 100%;
+        min-height: 160px;
+        color:white;
+        margin-top:-1.2%;
+        position: relative;
+        background-repeat: no-repeat;
+        height: 100%;
+
+    }
+    .header_list{
+        list-style: none;
+        width: 100%;
+        font-size: 0.8em;
+
+    }
+    .black_and_white{
+        margin-left: 32%;
+        font-size: 0.8em;
+        margin-top: 0%;
+    }
+    header a{
+        padding: 0% 3% 0% 3%;
+        background-color: black;
+        color: white;
+        border: 1px solid white;
+        text-decoration: none;
+        position: absolute;
+        left: 36%;
+        bottom: 53%;
+        opacity: 0.7;
+        font-size: 0.9em;
+    }
+    .header_center_text{
+        text-align: center;
+        padding-top: 27%;
+    }
+    .ampersand{
+        font-size: 1.9em;
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+    .black{
+        font-size: 1.2em;
+        text-transform: uppercase;
+    }
+    .white{
+        font-size: 1.2em;
+        text-transform: uppercase;
+    }
+    .tm{
+        vertical-align:text-top;
+        font-size: 0.5em;
+    }
+
+
+    .left{
+        display: block;
+        width: 100%;
+        vertical-align: top;
+        margin-left: 0%;
+        margin-right: 5%;
+        font-size: 0.8em;
+        padding-top: 0%;
+        padding-bottom: 2%;
+        text-align: center;
+    }
+    .right{
+        width: 100%;
+        padding-top: 4%;
+        padding-bottom: 7%;
+        font-size: 0.8em;
+        text-align: center;
+    }
+    .img1 {
+        margin-bottom: 2%;
+        width: 90%;
+        height: 50%;
+        display: block;
+        margin: 0 auto;
+    }
+    .img2 {
+        margin-bottom: 1%;
+        margin-left: 0%;
+        margin-right: 0%;
+        height: 31%;
+        width: 44.5%;
+        display: inline-block;
+        margin-top: 1%;
+    }
+    .img3 {
+        height: 31%;
+        width: 44.5%;
+        display: inline-block;
+        margin-bottom: 1%;
+        margin-left: 0%;
+        margin-right: 0%;
+    }
+    .img4 {
+        margin-left: 2%;
+        width: 90%;
+        height: 50%;
+        display: block;
+        margin: -4px auto;
+    }
+    .content h3 {
+        text-align: center;
+        padding-top: 3%;
+        padding-bottom: 3%;
+    }
+    .subs_left{
+        margin-left: 12%;
+        margin-top: 0%;
+        margin-bottom: -3%;
+    }
+    .subs_left p {
+        font-size: 1em;
+    }
+    .subs_right{
+        margin: 0% auto;
+        width: 49%;
+        height: 100%;
+        text-align: center;
+        margin-left: 17%;
+    }
+    .subs_right input[type="text"]{
+        width: 135%;
+        height: 100%;
+        padding: 3% 0 3% 5%;
+        background-color: #F3F3F3;
+        border: 1px solid black;
+        color: black;
+        margin-bottom: 1%;
+    }
+    .subs_right input[type="button"]{
+        padding: 3% 41% 3% 41%;
+        background-color: #343638;
+        color: white;
+        border: 1px solid black;
+        margin-bottom: 15%;
+    }
+    .col_4 input[type="text"]{
+        visibility: hidden;
+    }
+    .col_4 input[type="button"]{
+        visibility: hidden;
+    }
+    .col_main {
+        margin-top: 10%;
+        display: block;
+        margin-right: 5%;
+        width: 100%;
+        height: 100%;
+        text-align: center;
+    }
+        .col_main p {
+        color: grey;
+        font-size: 0.9em;
+        margin-top: -7%;
+        margin-bottom: 0%;
+    }
+    .col_4{
+        margin-top: 1%;
+        display: inline-block;
+        width: 100%;
+        height: 100%;
+        text-align: center;
+    }
+    .col_4 p {
+        padding-bottom: 0%;
+        margin-bottom: -14%;
+    }
+    .col_4 h4 {
+        padding-bottom: 0%;
+        margin-bottom: 0%;
+    }
+    .footer_list{
+        position: absolute;
+        list-style: none;
+        width:58%;
+        right:0%;
+        top:4%;
+        color: black;
+        display: none;
+    }
+    .footer_list li{
+        display: inline-block;
+        margin-left: 9%;
+    }
+    .footer_nav p {
+        position: relative;
+        margin-top: -1%;
+    }
+}
