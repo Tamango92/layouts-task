@@ -1,0 +1,334 @@
+
+body {
+    margin: 0px;
+    font-size: 1.2em;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.smaller {
+	font-size: 0.5em;
+}
+.bold {
+	font-weight: 600;
+}
+
+header {
+	background-image: url('addons/apples.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+	color: white;
+	padding: 2% 10%;
+}
+	header button {
+		border: 1px solid white;
+		background-color: hsla(0, 0%, 0%, 0.5);
+		color: white;
+		font-size: 0.7em;
+		display: block !important;
+		margin: 1px auto;
+		position: relative;
+		top: -3em;
+		width: 200px;
+		height: 50px;
+	}
+	hgroup {
+		padding: 15% 0%;
+		float: none;
+	}
+		h1 span {
+			font-size: 1.5em;
+			letter-spacing: 2px;
+		}
+		h1 {
+			font-weight: 400;
+			letter-spacing: 10px;
+		}
+		hgroup * {
+			text-align: center;
+		}
+
+		hgroup p {
+			position: relative;
+			top: -1.5em;
+		}
+
+nav a {
+	padding: 2%;
+	text-align: justify-all;
+	text-decoration: none;
+	font-size: .8em;
+}
+	header nav a {
+		color: white;
+	}
+	footer nav a {
+		color: black;
+	}
+
+section.someText {
+	padding: 2% 10%;
+	font-size: .8em;
+}
+	section.someText p {
+		display: inline-block;
+			
+		vertical-align: top;
+		margin: 2%;
+		text-align: justify;
+	}
+	section.someText p:first-child {
+		font-size: 1.2em;
+		line-height: 1.5;
+	}
+
+section.articles {
+	padding: 5% 10%;
+	font-size: .8em;
+	background-color: hsl(180, 5%, 95%);
+	text-align: center;
+}
+	section.articles div.subscribtion {
+		margin: 4%;
+		padding: 5%;
+		background-color: white;
+	}
+	section.articles div.subscribtion * {
+		display: inline-block;
+	}
+	
+	section.articles div.article {
+		background-color: black;
+	}
+
+	section.articles div.article > img:hover {
+		opacity: 0.3;
+	} 
+
+	section.articles div.article > img{
+		display: block;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		box-shadow: 10px 10px 50px 20px pink inset;
+		transition-duration: 0.5s;
+		z-index: 4;
+	}
+
+	section.articles div.article p.title {
+		position: absolute;
+		z-index: 10;
+		bottom: 5%;
+		left: 5%;
+		color: white;
+		text-align: left;
+		margin: 0px;
+	}
+	section.articles div.article div.likes {
+		position: absolute;
+		z-index: 10;
+		top: 5%;
+		right: 5%;
+		color: white;
+		border: 1px solid white;
+		padding: 3px;
+		background-color: hsla(0, 0%, 0%, .5);
+		font-size: .7em;
+	}
+	
+	section.articles div.article div.info:hover {
+		opacity: 0;
+		z-index: 5;
+	}
+
+	section.articles div.article div.info {
+		position: absolute;
+		display: block;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		z-index: 20;
+	}
+
+	section.articles div.article div.details:hover {
+		opacity: 1;
+		/*z-index: 15;*/
+	}
+
+	section.articles div.article div.details {
+		position: absolute;
+		display: block;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		opacity: 0;
+		z-index: 15;
+	}
+		div.details img {
+			position: absolute;
+			width: 50px;
+			top: 30%;
+			height: 50px;
+			border-radius: 25px;
+		}
+		div.details div.like {
+			position: absolute;
+			right: 5%;
+			top: 5%;
+			color: black;
+			padding: 3px;
+			background-color: hsl(0, 0%, 90%);
+			font-size: 1.7em;
+			width: 20px;
+		}
+		div.details div.text {
+			position: absolute;
+			text-align: center;
+			bottom: 20%;
+			color: white;
+			padding: 3px;
+			width: 100%;
+		}
+		div.details div.date {
+			position: absolute;
+			text-align: center;
+			bottom: 5%;
+			color: white;
+			padding: 3px;
+			width: 100%;
+		}
+
+
+form.subscribe *{
+	box-sizing: content-box;
+	display: inline-block;
+	height: 30px;
+	padding: 0px 2px;
+}
+	form.subscribe input {
+		border: 1px solid hsl(0, 0%, 25%);
+	}
+	section.articles form.subscribe input::-webkit-input-placeholder{
+		color: black;
+	}
+	form.subscribe button {
+		border: 1px solid hsl(0, 0%, 25%);
+		background-color: hsl(0, 0%, 25%);	
+		color: white;
+	}
+
+
+footer {
+	/*padding: 0% 15%;*/
+	font-size: .7em;
+	text-align: center;
+}
+	footer div {
+		display: inline-block;
+		padding: 1%;
+		margin: 1%;
+		text-align: justify;
+		vertical-align: top;
+	}
+		footer div .title {
+			font-weight: 700;
+			font-size: 1.3em;
+			margin: 5% 0%;
+		}
+		footer div .content {
+			margin: 1%;
+			color: grey;
+		}
+		div.underFooter {
+			border-top: 1px solid gray;
+			display: block;
+			width: 90%;
+			margin: auto;
+
+		}
+		footer nav {
+			float: right;
+			text-align: right;
+		}
+		div.underFooter span {
+			color: gray;
+		}
+
+@media screen and (max-width: 600px) {
+	div.top {
+		text-align: center;
+	}
+	header * {
+		margin-right: 0%;
+		margin-left: 0%;
+	}
+	section.articles div.article {
+		width: 100%;
+		margin-top: 5px;
+		position: relative;
+	}
+
+
+	footer form.subscribe input {
+		width: 40%;
+		margin-top: 5px;
+	}
+	section.article form.subscribe input {
+		min-width: 200px;
+	}
+	
+	footer > div {
+		width: 40%;
+	}
+}
+
+@media screen and (min-width: 600px) {
+
+	div.logo {
+		display: inline-block;
+	}
+	header nav {
+		float: right;
+		width: 60%;
+		text-align: right;
+	}
+
+	section.someText p {
+		width: 45%;
+		min-width: 200px
+	}
+	section.articles div.article:nth-child(4n),
+	section.articles div.article:nth-child(4n-1) {
+		width: 29%;
+		display: inline-block;
+		position: relative;	
+	}	
+
+	section.articles div.article:nth-child(4n-2),
+	section.articles div.article:nth-child(4n-3) {
+		width: 60%;
+		display: inline-block;
+		position: relative;	
+	}
+	section.articles form.subscribe {
+		width: 360px;
+	}
+	form.subscribe button,
+	form.subscribe input {
+		padding: 0% 1%
+	}
+	form.subscribe input {
+		width: 60%;
+		margin-left: 1%;
+	}
+	footer {
+		padding: 0% 10%;
+	}
+	footer div {
+		width: 20%;
+		min-width: 200px;
+	}
+}
